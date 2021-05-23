@@ -21,7 +21,7 @@ end
 def return_string_array(array)
   newArray=[]
   for element in array do
-    newArray.push[element.to_s]
+    newArray.push(element.to_s)
   end
   binding.pry
   return newArray
