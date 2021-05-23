@@ -1,5 +1,5 @@
 # Write your methods here
-require 'pry'
+#require 'pry'
 def loop_message_five_times(message)
   5.times do
     puts message
@@ -27,4 +27,4 @@ def return_string_array(array)
   return newArray
 end
 
-p return_string_array([1, 2, 3, 4, 5])
+#p return_string_array([1, 2, 3, 4, 5])
