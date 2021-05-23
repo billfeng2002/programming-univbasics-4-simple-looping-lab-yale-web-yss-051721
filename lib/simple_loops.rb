@@ -23,7 +23,7 @@ def return_string_array(array)
   for element in array do
     newArray.push(element.to_s)
   end
-  binding.pry
+  #binding.pry
   return newArray
 end
 
